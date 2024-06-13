@@ -1,0 +1,77 @@
+
+:root{
+    --bgCard:#F3F2F8;
+    --borederCard: #E8E8EA;
+}
+
+.dark{
+    --bgCard:#33333381;
+    --borederCard: #e8e8ea4d;
+
+}
+.card-course{
+    width: 350px;
+    height: 350px;
+    background-color:var(--bgCard) ;
+    border: solid 1px var(--borederCard);
+transition: all 0.5s;
+    padding: 20px;
+   border-radius:10px ;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+
+}
+.card-course img{
+    border-radius: 10px;
+   
+    width: 100%;
+    
+}
+.dark .card-course{
+   /* box-shadow: none; */
+   box-shadow: rgba(17, 12, 46, 0.15) 0px 8px 20px 0px;
+
+}
+.card-course:hover{
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.title-in-card-course{
+font-size: xx-large;
+margin-top: 10px !important;
+margin-bottom: 5px;
+cursor: pointer;
+transition: all 0.5s;
+font-weight: 900 !important;
+text-align: center;
+}
+.title-in-card-course:hover{
+    color: #2caac1;
+}
+.card-course .info-in-card-course .MuiTypography-root{
+font-size: 12px;
+text-transform: capitalize;
+}
+.price-course-in-card{
+    font-size: larger;
+    font-weight: 700;
+    color: #2caac1;
+    font: 500;
+    text-transform: capitalize;
+}
+@media(max-width:400px){
+    .card-course{
+        width: 300px;
+    }
+    .img-card-course{
+        width: 100% !important;
+    }
+    .card-course .info-in-card-course .MuiTypography-root {
+        font-size: 10px;
+        }
+        .card-course .info-in-card-course .MuiSvgIcon-root{
+            font-size: 12px;
+
+        }
+}

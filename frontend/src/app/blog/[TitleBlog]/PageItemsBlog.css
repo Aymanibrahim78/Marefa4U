@@ -1,0 +1,116 @@
+.contPaae p {
+ font-size: 20px;
+ 
+}
+
+
+
+
+.contPaae pre{
+  direction: ltr;
+  background-color: #F3F2F8;
+  padding: 10px;
+  width: 100%;
+  border: #039be5 solid 1px;
+  color: black;
+
+}
+.dark .contPaae pre{
+  background-color: #202024;
+  color: #f9f9f9;
+  padding: 10px;
+  width: 100%;
+  border: #039be5 solid 1px;
+}
+.contPaae h1 {
+  font-size: 2.4em;
+}
+
+.contPaae h2 {
+  font-size: 1.6em;
+}
+
+.contPaae h3 {
+  font-size: 1.4em;
+}
+
+.contPaae h4 {
+  font-size: 1.2em;
+}
+
+.contPaae h5 {
+  font-size: 1em;
+}
+.contPaae h6 {
+  font-size: 0.8em;
+}
+
+.contPaae blockquote {
+  position: relative;
+  padding-left: 1em;
+  border-left: 0.2em solid #039be5;
+  font-family: "Roboto", serif;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-weight: 100;
+  margin: 20px auto;
+  background: #f9f9f9;
+}
+.dark .contPaae blockquote {
+  background: #202024;
+}
+.contPaae blockquote:before,
+.contPaae blockquote:after {
+  font-family: Calibri;
+  color: #039be5;
+  font-size: 34px;
+}
+.contPaae blockquote:before {
+  content: "\201e";
+}
+.contPaae blockquote:after {
+  content: "\201c";
+}
+.contPaae blockquote cite {
+  font-size: 50%;
+  text-align: center;
+  top: 50%;
+}
+.contPaae blockquote cite:before {
+  content: " \2015 ";
+}
+
+.contPaae img {
+  /* object-fit: cover; */
+
+  width: 500px;
+  height: 300px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+.contPaae ul {
+  list-style: initial;
+}
+.contPaae ol {
+  list-style: decimal;
+}
+.contPaae li {
+  margin: 0 3px;
+}
+.contPaae a {
+  color: blue;
+  text-decoration: solid;
+  font-weight: 600;
+}
+.contPaae .img-blog-in-blog-page-item{
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+@media(max-width:600px){
+  .contPaae .img-blog-in-blog-page-item{
+    height: 250px;
+  }
+}

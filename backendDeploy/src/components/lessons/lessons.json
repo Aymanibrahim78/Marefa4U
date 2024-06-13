@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_lessons_lessons",
+  "info": {
+    "displayName": "Lessons",
+    "icon": "play",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "TitleOfLesson": {
+      "type": "string"
+    },
+    "IDVideo": {
+      "type": "string",
+      "required": true
+    },
+    "Time": {
+      "type": "decimal",
+      "required": true
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

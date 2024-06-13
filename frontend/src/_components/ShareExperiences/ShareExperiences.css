@@ -1,0 +1,170 @@
+
+
+
+
+
+
+.info-right-sec{
+    width: 48%;
+}
+
+.title-shere-experiences{
+    font-size: 40px;
+    font-weight: 800;
+    
+
+}
+
+.description-shere-experiences{
+
+    color: #B9B9B9;
+    line-height: 30px;
+    font-size: larger;
+    margin: 25px 0;
+}
+
+.list-shere-experiences{
+
+    list-style:none;
+
+}
+
+.item-list-shere-experiences{
+    margin: 0;
+position: relative;
+
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 1em;
+font-weight: 500;
+margin: 20px 0;
+margin-left: 40px;
+}
+
+.item-list-shere-experiences::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #2CAAC1;
+    border-radius: 50%;
+    position: absolute;
+    left: -32px;
+  
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
+
+.img-right-sec{
+
+    position: relative;
+    width: 48%;
+    height: 400px;
+    display: block;
+   
+}
+@media(max-width:1000px){
+    
+.img-right-sec ,.info-right-sec{
+
+   
+    width: 80%;
+
+}
+}
+.img-right-sec .img{
+position: absolute;
+z-index: 1;
+bottom: -1px;
+right: 0;
+display: block;
+width: 100%;
+height: 90%;
+object-fit: contain;
+}
+.img-right-sec .back{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 80%;
+    object-fit: unset;
+
+}
+@media(max-width:1200px){
+    .img-right-sec .img {
+        height: 380px;
+        width: 380px;
+    }
+    .img-right-sec .back{
+        height: 300px;
+        width: 380px;
+
+    }
+    .img-right-sec{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media(max-width:1000px){
+    .img-right-sec .img{
+        height: 400px;
+        width: 400px;
+    }
+    .img-right-sec .back{
+        height: 300px;
+        width: 380px;
+
+    }
+    .img-right-sec{
+        height: 420px;
+        width: 420px;
+    }
+}
+@media(max-width:800px){
+    .img-right-sec .img {
+        height: 350px;
+        width: 350px;
+    }
+    .img-right-sec .back{
+        height: 290px;
+        width: 300px;
+
+    }
+    .img-right-sec{
+        height: 370px;
+        width: 370px;
+    }
+    .item-list-shere-experiences{
+        margin-left: 30px;
+    }
+    .title-shere-experiences{
+        font-size: 35px;
+    }
+}
+@media(max-width:600px){
+    .img-right-sec .img {
+        height: 300px;
+        width: 250px;
+    }
+    .img-right-sec .back{
+        height: 250px;
+        width: 300px;
+
+    }
+    .img-right-sec{
+        height: 320px;
+        width: 320px;
+    }
+    .item-list-shere-experiences{
+        margin-left: 25px;
+    }
+    .title-shere-experiences{
+        font-weight: 600;
+   
+    }
+}

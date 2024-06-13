@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @tailwindcss forms; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e8e8ea;
+  
+  
+  font-family: "Roboto", sans-serif !important;
+
+
+  
+}
+.dark {
+  background-color: #2b2b2b;
+}
+
+
+/* =========================
+Start ____Not Found Page
+=========================*/
+.img-not-found {
+  width: 50%;
+  display: block;
+  margin: 20px auto;
+}
+
+@media(max-width:650px){
+    .img-not-found {
+        width: 65%;
+    }
+}
+
+.link-not-found {
+  padding: 15px;
+  align-items: center;
+  background: linear-gradient(to top, #1fc9ac 0%, transparent 100%);
+  color: rgba(0, 0, 0, 0.605);
+  font-size: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 1s !important;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.dark .link-not-found {
+  color: rgba(255, 255, 255, 0.797);
+
+}
+.link-not-found:active{
+  background: linear-gradient(to top, #1fc9ac 50%, transparent 100%);
+
+}
+
+.link-not-found:hover {
+  transition: all 1s;
+  background: linear-gradient(to top, transparent 0%, #1fc9ac 100%);
+}
+/* =========================
+End  ____Not Found Page
+=========================*/
+
+.box-border-skeleton {
+  border: solid 1px rgba(0, 0, 0, 0.406);
+  border-radius: 10px;
+  width: 24%;
+  padding: 20px;
+  flex-grow: 1;
+  width: 200px;
+}
+@media (max-width: 950px) {
+  .box-border-skeleton {
+    width: 100%;
+  }
+}
+.dark .box-border-skeleton{
+  border: solid 1px rgba(237, 237, 237, 0.577);
+}
+
+/* =============================
+Start  ___ btn-show-more
+=============================*/
+
+.btn-show-more{
+  all: unset;
+  display: block;
+  background-color: #2CAAC1;
+  padding: 15px 20px;
+  font-size: larger;
+  border-radius: 10px;
+  color: white;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin: 20px auto;
+  text-align: center;
+  align-items: center;
+  border: #1fc9ac solid 1px ;
+  transition: all 0.5s;
+}
+.btn-show-more:hover{
+  border-color: #2CAAC1;
+  background-color: inherit;
+  color: black;
+}
+.dark .btn-show-more:hover{
+  color: white;
+
+}
+
+/* =============================
+End ___  btn-show-more
+=============================*/
+
+/* =============================
+Start ___  sec-title-page
+=============================*/
+
+.sec-title-page{
+  background-color: #F3F2F8;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.dark .sec-title-page{
+  background-color: #202024;
+
+}
+
+.title-page{
+  font-size: 90px !important;
+  font-weight: 800 !important;
+  text-align: center;
+  color: inherit;
+}
+@media(max-width:1200px){
+  .title-page{
+    font-size: 75px !important;
+  }
+}
+@media(max-width:1000px){
+  .title-page{
+    font-size: 60px !important;
+  }
+}
+@media(max-width:800px){
+  .title-page{
+    font-size: 45px !important;
+  }
+}
+@media(max-width:600px){
+  .title-page{
+    font-size: 40px !important;
+  }
+}
+@media(max-width:500px){
+  .title-page{
+    font-size: 35px !important;
+  }
+}
+
+
+/* =============================
+End ___  sec-title-page
+=============================*/
+

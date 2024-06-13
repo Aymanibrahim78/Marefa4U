@@ -1,0 +1,75 @@
+:root {
+  --bgActiveBtnList: #b7b7bb;
+  --bgSecListVideo: #ddd9efa2;
+}
+.dark {
+  --bgActiveBtnList: #353538;
+  --bgSecListVideo: #20202498;
+}
+
+.sec-video-palyer {
+  width: 60%;
+  height: 50vh;
+  border: solid 2px #2caac1;
+  border-radius: 20px;
+}
+.sec-video-palyer .plyr {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 20px !important;
+  
+}
+
+
+
+.sec-play-list-video {
+  border-radius: 5px;
+  background-color: var(--bgSecListVideo);
+  max-height: 50vh;
+  height: 100%;
+  width: 35%;
+  overflow-y: scroll;
+
+}
+
+.btn-list-video {
+  display: block;
+  background-color: var(--bgprimry);
+  padding: 10px;
+  margin: 2px 0;
+  border-radius: 2px;
+  width: 100%;
+  text-align: left;
+}
+.sec-play-list-video .MuiToggleButtonGroup-root {
+  border: none;
+  width: 100%;
+}
+.sec-play-list-video .MuiButtonBase-root {
+  display: block;
+  background-color: var(--bgprimry);
+  padding: 10px;
+  margin: 2px 0;
+  border-radius: 2px;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+}
+
+.Mui-srlrcted {
+  background-color: var(--bgActiveBtnList);
+}
+.MuiButtonBase-root span {
+  font-size: x-small;
+  color: #2caac1;
+  font-weight: 700;
+}
+
+@media(max-width:900px){
+    .sec-video-palyer{
+        width: 100%;
+    }
+    .sec-play-list-video{
+        flex-grow: 1;
+    }
+}

@@ -1,0 +1,49 @@
+.FeaturesSec {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.box-border-features {
+  border: solid 1px rgba(0, 0, 0, 0.406);
+  border-radius: 10px;
+  width: 24%;
+  padding: 20px;
+  flex-grow: 1;
+}
+.dark .box-border-features{
+  border: solid 1px white;
+}
+.title-features {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.title-features-about-us {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.description-features {
+  font-size: 15px;
+  color: #969696;
+}
+.box-about-us-in-features {
+  width: 24%;
+  padding: 30px;
+}
+
+@media (max-width: 1150px) {
+  .box-about-us-in-features {
+    width: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .box-border-features {
+    width: 100%;
+  }
+}

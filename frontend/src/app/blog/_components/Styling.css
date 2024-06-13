@@ -1,0 +1,248 @@
+/* ============================
+Start ___Styling Card In Home PAge
+===============================*/
+.box-card-blog-in-card-in-home-page {
+  width: 48%;
+  height: 100%;
+  /* border: #2caac1 solid; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 12px;
+  border-radius: 15px;
+z-index: 5 !important;
+  justify-content: center;
+}
+
+
+.box-card-blog-in-card-in-home-page .right ,.box-card-blog-in-card-in-home-page .left{
+  width: 48%;
+
+
+}
+.img-blog-in-card-in-home-page {
+  border-radius: 30px;
+  /* width: 300px;
+  height: 150px; */
+}
+
+
+.title-blog-in-card-in-home-page {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  line-height: 25px !important;
+  margin-bottom: 20px !important;
+}
+
+.date-blog-in-card-in-home-page {
+}
+
+.category-blog-in-card-in-home-page {
+  background-color: #2caac1;
+  padding: 7px 15px;
+  border-radius: 20px;
+  color: white;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+@media (max-width: 1000px) {
+  .box-card-blog-in-card-in-home-page {
+    /* width: 400px; */
+    flex-wrap: wrap;
+  }
+
+  .box-card-blog-in-card-in-home-page .right ,.box-card-blog-in-card-in-home-page .left{
+    width: 100%;
+  
+  
+  }
+}
+
+@media (max-width: 750px) {
+  .title-blog-in-card-in-home-page {
+    font-size: 20px !important;
+    line-height: 20px !important;
+  }
+ 
+  .category-blog-in-card-in-home-page {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: x-large;
+  }
+}
+
+@media (max-width: 650px) {
+  .title-blog-in-card-in-home-page {
+    font-size: 15px !important;
+  }
+  .category-blog-in-card-in-home-page {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: large;
+  }
+  .img-blog-in-card-in-home-page{
+    width: 100%;
+    
+  }
+  .box-card-blog-in-card-in-home-page {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+ 
+  .category-blog-in-card-in-home-page {
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: small !important;
+  }
+
+  .date-blog-in-card-in-home-page {
+    font-size: 10px !important;
+  }
+ 
+}
+/* ============================
+End ___Styling Card In Home PAge
+===============================*/
+
+/* =================================
+Start ___Styling Sec Blog In Home Page
+===================================*/
+.sec-blog-card-only{
+position: relative;
+z-index: 2 !important;
+}
+
+.sec-blog-card-only::before{
+    content: "";
+   
+    position: absolute;
+top:-25px;
+left: -20px;
+width: 150px;
+height: 150px;
+background-image: url(https://res.cloudinary.com/dixyny2zj/image/upload/v1718239911/wSNFIuzR143lDIZ4Ternzjwog_q6vtsi.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+z-index:0 !important;
+margin-top: 80px;
+   
+    }
+
+    .title-sec-blog-card-only{
+        font-size: 30px !important;
+        font-weight: 700 !important;
+        margin: 20px 0 !important;
+    }
+@media(max-width:900px){
+    .sec-blog-card-only::before{
+        content: none;
+    }
+    .title-sec-blog-card-only{
+        font-size: 25px !important;
+    }
+}
+
+
+/* =================================
+End ___Styling Sec Blog In Home Page
+===================================*/
+
+
+/* =================================
+Start ___Styling ALL Blog Page
+===================================*/
+
+.box-last-blog{
+  justify-content: space-between;
+}
+.img-blog-in-home-page-last {
+  display: block;
+  border-radius: 30px;
+  
+    object-position: center center;
+    object-fit: cover;
+    image-rendering: auto;
+}
+.left-box-last-blog{
+  width: 48%;
+}
+
+
+@media(max-width:900px){
+  .left-box-last-blog{
+  width: 100%;
+
+   
+  }
+  .box-last-blog{
+    justify-content: center;
+   
+  }
+  /* .img-blog-in-home-page-last {
+    width: 100%;
+  } */
+
+}
+
+.box-card-blog-in-blog-page{
+  position: relative;
+  width: 48%;
+  
+  align-items: center;
+border-radius: 20px;
+flex-wrap: wrap;
+padding: 5px;
+
+
+}
+.box-card-blog-in-blog-page::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: -10px;
+  /* border-bottom: #a2a2a24c solid 1px; */
+  border-bottom: #F1F1F1 solid 1px;
+  /* #F1F1F1 */
+  margin: 5px 0;
+}
+.img-card-blog-in-blog-page{
+height: 250px;
+width: 200px;
+border-radius: 20px;
+/* display: block; */
+  
+  
+    /* object-position: center center;
+    object-fit: cover;
+    image-rendering: auto; */
+}
+.left-blog-in-blog-page{
+  width: 40%;
+}
+.right-blog-in-blog-page{
+  width: 55%;
+ 
+}
+@media(max-width:1000px){
+  .left-blog-in-blog-page ,.right-blog-in-blog-page{
+    width: 100%;
+  }
+  .img-card-blog-in-blog-page{
+    height: 250px;
+    width: 100%;
+  }
+}
+
+@media(max-width:600px){
+  .box-card-blog-in-blog-page{
+    width: 100%;
+  }
+}
+
+
+
+/* =================================
+Emd ___Styling ALL Blog Page
+===================================*/

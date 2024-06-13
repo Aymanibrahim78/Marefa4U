@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cousrses",
+  "info": {
+    "singularName": "cousrse",
+    "pluralName": "cousrses",
+    "displayName": "cousrse",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "price": {
+      "type": "decimal",
+      "default": 0
+    },
+    "language": {
+      "type": "string",
+      "required": false,
+      "default": "Arabic"
+    },
+    "level": {
+      "type": "string",
+      "default": "Beginner"
+    },
+    "NumberOfStudents": {
+      "type": "biginteger"
+    },
+    "rating": {
+      "type": "decimal",
+      "required": true
+    },
+    "Lessons": {
+      "type": "dynamiczone",
+      "components": [
+        "lessons.lessons"
+      ]
+    },
+    "showInSlider": {
+      "type": "boolean",
+      "default": false
+    },
+    "instructor": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::instructor.instructor",
+      "inversedBy": "cousrses"
+    },
+    "course_category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::course-category.course-category",
+      "inversedBy": "cousrses"
+    }
+  }
+}

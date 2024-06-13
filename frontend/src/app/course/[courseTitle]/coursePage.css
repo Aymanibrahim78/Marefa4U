@@ -1,0 +1,127 @@
+.dark .logo-home {
+  color: rgb(244, 242, 242);
+}
+
+.dark .bg-home {
+  background-color: #1f2937;
+}
+.dark .border-cont {
+  border-color: rgba(128, 128, 128, 0.698);
+}
+.dark .bg {
+  background-color: #0307129c;
+}
+@media(max-width:400px){
+    .title-name{
+        font-size: 10px;
+    }
+}
+
+:root{
+  --bgprimry: #f3f2f8;
+}
+.dark{
+  --bgprimry: #202024;
+}
+
+.info-course-in-course-page{
+    background-color: var(--bgprimry) ;
+    min-height: 30vh;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    
+  
+}
+
+.description-sec-in-course-page{
+  width: calc(100% - 350px);
+margin-top: 30px;
+}
+
+@media(max-width:750px){
+  .info-course-in-course-page{
+    width: 70%;
+  }
+  .info-course-in-course-page img{
+    width: 100%;
+  }
+  .description-sec-in-course-page{
+    width: 100%;
+margin-top: 0px;
+
+  }
+  
+}
+@media(max-width:600px){
+  .info-course-in-course-page{
+    width: 100%;
+  }
+}
+
+.dark .info-course-in-course-page{
+    background-color: var(--bgprimry);
+}
+
+
+/* ============================
+Satrt ___ Category Section
+=================================*/
+.btn-group-category{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  
+}
+
+.btn-group-category .btn-category{
+  border-radius: 20px !important;
+border: solid #D2D2D2 1px !important;
+padding: 5px 15px !important;
+text-transform: capitalize !important;
+margin: 0 5px !important;
+color: #020202da !important;
+font-size: 20px !important;
+}
+.dark .btn-group-category .btn-category{
+color: #cdc8c8da !important;
+border: solid #d2d2d29c 1px !important;
+
+}
+
+.btn-group-category .Mui-selected{
+background-color: inherit !important;
+color: #50D5BE !important;
+border-color:#50D5BE !important;
+}
+.dark .btn-group-category .Mui-selected{
+
+  background-color: inherit !important;
+  color: #50D5BE !important;
+  border-color:#50D5BE !important;
+}
+.box-instructor{
+  background-color: #f3f2f894;
+  border: solid 1px #e4e0f5;
+  border-radius: 20px;
+  transition: all 0.5s;
+
+}
+.box-instructor:hover{
+  background-color: #e4e0f5;
+
+}
+.dark .box-instructor{
+  background-color: #20202496;
+  border: solid 1px #eae8f32f;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.dark .box-instructor:hover{
+  background-color: #eae8f32f;
+}
+/* ============================
+End ___ Category Section #50D5BE
+=================================*/
